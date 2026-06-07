@@ -24,10 +24,8 @@ uint64_t nPrime(uint64_t n) {
     if (n == 0) {
         return 0;
     }
-    
     uint64_t count = 0; 
     uint64_t candidate = 1;
-    
     while (count < n) {
         candidate++;
         if (checkPrime(candidate)) {
